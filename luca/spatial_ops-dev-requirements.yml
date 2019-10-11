@@ -1,0 +1,34 @@
+name: spatial_thorsten-dev-requirements
+
+channels:
+  - anaconda
+  - conda-forge
+  - bioconda
+  - pytorch
+dependencies:
+  - make
+  - sphinx
+  - sphinx_rtd_theme
+  - sphinx-gallery
+  - pytest
+  - flake8
+  - coverage
+  - python >=3.6
+  - numpy
+  - pip
+  - scikit-learn
+  - scikit-image
+  - vigra
+  - matplotlib
+  - pyqtgraph
+  - pandas
+  - colorama
+  - progressbar2
+  - snakemake
+  - click
+  - umap-learn
+  - seaborn
+  - h5py
+  - pytorch
+  - pip:
+    - git+https://github.com/LucaMarconato/layer_viewer.git

@@ -1,0 +1,6 @@
+luca/.idea/
+luca/log/
+luca/derived_data/
+__pycache__/
+joblib/
+.DS_Store
